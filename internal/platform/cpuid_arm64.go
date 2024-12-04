@@ -40,8 +40,10 @@ func loadCpuFeatureFlags() CpuFeatureFlags {
 		// https://developer.arm.com/documentation/ddi0601/latest/AArch64-Registers/ID-AA64ISAR0-EL1--AArch64-Instruction-Set-Attribute-Register-0
 		// https://developer.arm.com/documentation/ddi0601/latest/AArch64-Registers/ID-AA64ISAR1-EL1--AArch64-Instruction-Set-Attribute-Register-1
 		return &cpuFeatureFlags{
-			isar0: getisar0(),
-			isar1: getisar1(),
+			//isar0: getisar0(),
+			//isar1: getisar1(),
+			isar0: uint64(CpuFeatureArm64Atomic),
+			isar1: 0,
 		}
 	default:
 		return &cpuFeatureFlags{}
