@@ -7,11 +7,11 @@ import (
 	"math"
 	"strings"
 
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/backend"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/backend/regalloc"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/ssa"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/wazevoapi"
-	"github.com/tetratelabs/wazero/internal/platform"
+	"github.com/youshandefeiyang/wazero/internal/engine/wazevo/backend"
+	"github.com/youshandefeiyang/wazero/internal/engine/wazevo/backend/regalloc"
+	"github.com/youshandefeiyang/wazero/internal/engine/wazevo/ssa"
+	"github.com/youshandefeiyang/wazero/internal/engine/wazevo/wazevoapi"
+	"github.com/youshandefeiyang/wazero/internal/platform"
 )
 
 // NewBackend returns a new backend for arm64.

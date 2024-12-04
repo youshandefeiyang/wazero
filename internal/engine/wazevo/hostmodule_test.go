@@ -5,10 +5,10 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/experimental"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/youshandefeiyang/wazero/api"
+	"github.com/youshandefeiyang/wazero/experimental"
+	"github.com/youshandefeiyang/wazero/internal/testing/require"
+	"github.com/youshandefeiyang/wazero/internal/wasm"
 )
 
 func Test_writeIface_readIface(t *testing.T) {

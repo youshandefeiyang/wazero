@@ -5,14 +5,14 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/tetratelabs/wazero"
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/platform"
-	"github.com/tetratelabs/wazero/internal/testing/binaryencoding"
-	"github.com/tetratelabs/wazero/internal/testing/hammer"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	"github.com/tetratelabs/wazero/internal/wasm"
-	"github.com/tetratelabs/wazero/sys"
+	"github.com/youshandefeiyang/wazero"
+	"github.com/youshandefeiyang/wazero/api"
+	"github.com/youshandefeiyang/wazero/internal/platform"
+	"github.com/youshandefeiyang/wazero/internal/testing/binaryencoding"
+	"github.com/youshandefeiyang/wazero/internal/testing/hammer"
+	"github.com/youshandefeiyang/wazero/internal/testing/require"
+	"github.com/youshandefeiyang/wazero/internal/wasm"
+	"github.com/youshandefeiyang/wazero/sys"
 )
 
 var hammers = map[string]testCase{

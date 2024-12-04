@@ -8,16 +8,16 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tetratelabs/wazero"
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/experimental"
-	"github.com/tetratelabs/wazero/experimental/logging"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/testcases"
-	"github.com/tetratelabs/wazero/internal/leb128"
-	"github.com/tetratelabs/wazero/internal/testing/binaryencoding"
-	"github.com/tetratelabs/wazero/internal/testing/dwarftestdata"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/youshandefeiyang/wazero"
+	"github.com/youshandefeiyang/wazero/api"
+	"github.com/youshandefeiyang/wazero/experimental"
+	"github.com/youshandefeiyang/wazero/experimental/logging"
+	"github.com/youshandefeiyang/wazero/internal/engine/wazevo/testcases"
+	"github.com/youshandefeiyang/wazero/internal/leb128"
+	"github.com/youshandefeiyang/wazero/internal/testing/binaryencoding"
+	"github.com/youshandefeiyang/wazero/internal/testing/dwarftestdata"
+	"github.com/youshandefeiyang/wazero/internal/testing/require"
+	"github.com/youshandefeiyang/wazero/internal/wasm"
 )
 
 const (

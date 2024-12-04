@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/youshandefeiyang/wazero/internal/testing/require"
 )
 
 var (

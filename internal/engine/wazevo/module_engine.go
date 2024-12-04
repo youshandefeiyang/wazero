@@ -4,11 +4,11 @@ import (
 	"encoding/binary"
 	"unsafe"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/experimental"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/wazevoapi"
-	"github.com/tetratelabs/wazero/internal/wasm"
-	"github.com/tetratelabs/wazero/internal/wasmruntime"
+	"github.com/youshandefeiyang/wazero/api"
+	"github.com/youshandefeiyang/wazero/experimental"
+	"github.com/youshandefeiyang/wazero/internal/engine/wazevo/wazevoapi"
+	"github.com/youshandefeiyang/wazero/internal/wasm"
+	"github.com/youshandefeiyang/wazero/internal/wasmruntime"
 )
 
 type (

@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/backend/regalloc"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/ssa"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/wazevoapi"
+	"github.com/youshandefeiyang/wazero/internal/engine/wazevo/backend/regalloc"
+	"github.com/youshandefeiyang/wazero/internal/engine/wazevo/ssa"
+	"github.com/youshandefeiyang/wazero/internal/engine/wazevo/wazevoapi"
 )
 
 // NewCompiler returns a new Compiler that can generate a machine code.

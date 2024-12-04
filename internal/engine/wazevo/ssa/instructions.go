@@ -5,7 +5,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/wazevoapi"
+	"github.com/youshandefeiyang/wazero/internal/engine/wazevo/wazevoapi"
 )
 
 // Opcode represents a SSA instruction.

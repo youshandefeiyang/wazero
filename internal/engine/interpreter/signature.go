@@ -3,7 +3,7 @@ package interpreter
 import (
 	"fmt"
 
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/youshandefeiyang/wazero/internal/wasm"
 )
 
 // signature represents how a Wasm opcode

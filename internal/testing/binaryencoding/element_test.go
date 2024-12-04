@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/youshandefeiyang/wazero/internal/testing/require"
 )
 
 func Test_ensureElementKindFuncRef(t *testing.T) {

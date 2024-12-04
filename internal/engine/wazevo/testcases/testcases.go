@@ -3,8 +3,8 @@ package testcases
 import (
 	"math"
 
-	"github.com/tetratelabs/wazero/internal/leb128"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/youshandefeiyang/wazero/internal/leb128"
+	"github.com/youshandefeiyang/wazero/internal/wasm"
 )
 
 const ExportedFunctionName = "f"

@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetratelabs/wazero/experimental/sys"
-	"github.com/tetratelabs/wazero/internal/fsapi"
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/youshandefeiyang/wazero/experimental/sys"
+	"github.com/youshandefeiyang/wazero/internal/fsapi"
+	"github.com/youshandefeiyang/wazero/internal/testing/require"
 )
 
 func TestTcpConnFile_Write(t *testing.T) {

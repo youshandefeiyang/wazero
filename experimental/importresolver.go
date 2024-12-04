@@ -3,8 +3,8 @@ package experimental
 import (
 	"context"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/expctxkeys"
+	"github.com/youshandefeiyang/wazero/api"
+	"github.com/youshandefeiyang/wazero/internal/expctxkeys"
 )
 
 // ImportResolver is an experimental func type that, if set,

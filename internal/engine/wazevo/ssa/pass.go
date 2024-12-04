@@ -3,7 +3,7 @@ package ssa
 import (
 	"fmt"
 
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/wazevoapi"
+	"github.com/youshandefeiyang/wazero/internal/engine/wazevo/wazevoapi"
 )
 
 // RunPasses implements Builder.RunPasses.

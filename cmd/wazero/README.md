@@ -5,7 +5,7 @@ The wazero CLI can be used to execute a standalone WebAssembly binary.
 ### Installation
 
 ```bash
-$ go install github.com/tetratelabs/wazero/cmd/wazero@latest
+$ go install github.com/youshandefeiyang/wazero/cmd/wazero@latest
 ```
 
 ### Usage

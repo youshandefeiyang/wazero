@@ -83,7 +83,7 @@ To ensure we promote community members, please do not add works that don't use
 wazero to this list. Please keep descriptions short for a better table
 experience.
 
-[1]: https://github.com/tetratelabs/wazero/tree/main/site/content/community/users.md
+[1]: https://github.com/youshandefeiyang/wazero/tree/main/site/content/community/users.md
 
 [2]: https://github.com/knqyf263/go-plugin
 

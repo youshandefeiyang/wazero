@@ -3,7 +3,7 @@ package sysfs
 import (
 	"unsafe"
 
-	"github.com/tetratelabs/wazero/experimental/sys"
+	"github.com/youshandefeiyang/wazero/experimental/sys"
 )
 
 // pollFd is the struct to query for file descriptor events using poll.

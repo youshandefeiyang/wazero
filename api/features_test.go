@@ -3,7 +3,7 @@ package api
 import (
 	"testing"
 
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/youshandefeiyang/wazero/internal/testing/require"
 )
 
 // TestCoreFeatures_ZeroIsInvalid reminds maintainers that a bitset cannot use zero as a flag!

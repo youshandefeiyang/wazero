@@ -1,8 +1,8 @@
 package binaryencoding
 
 import (
-	"github.com/tetratelabs/wazero/internal/leb128"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/youshandefeiyang/wazero/internal/leb128"
+	"github.com/youshandefeiyang/wazero/internal/wasm"
 )
 
 func encodeDataSegment(d *wasm.DataSegment) (ret []byte) {

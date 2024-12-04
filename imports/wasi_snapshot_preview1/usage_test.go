@@ -6,10 +6,10 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/tetratelabs/wazero"
-	"github.com/tetratelabs/wazero/imports/wasi_snapshot_preview1"
-	"github.com/tetratelabs/wazero/internal/fstest"
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/youshandefeiyang/wazero"
+	"github.com/youshandefeiyang/wazero/imports/wasi_snapshot_preview1"
+	"github.com/youshandefeiyang/wazero/internal/fstest"
+	"github.com/youshandefeiyang/wazero/internal/testing/require"
 )
 
 // pringArgsWasm was compiled from testdata/wasi_arg.wat

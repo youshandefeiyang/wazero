@@ -61,7 +61,7 @@
     call 0
     ;; Call memory.fill with params. memory.fill/copy internally calls the Go runtime's runtime.memmove,
     ;; which has a slightly tricky calling convention. This ensures that across the call to memory.fill
-    ;; the registers are preserved. https://github.com/tetratelabs/wazero/pull/2202
+    ;; the registers are preserved. https://github.com/youshandefeiyang/wazero/pull/2202
     local.get 0
     local.get 1
     local.get 2

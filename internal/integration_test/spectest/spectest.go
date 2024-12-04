@@ -10,12 +10,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tetratelabs/wazero"
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/moremath"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	"github.com/tetratelabs/wazero/internal/wasm"
-	"github.com/tetratelabs/wazero/internal/wasmruntime"
+	"github.com/youshandefeiyang/wazero"
+	"github.com/youshandefeiyang/wazero/api"
+	"github.com/youshandefeiyang/wazero/internal/moremath"
+	"github.com/youshandefeiyang/wazero/internal/testing/require"
+	"github.com/youshandefeiyang/wazero/internal/wasm"
+	"github.com/youshandefeiyang/wazero/internal/wasmruntime"
 )
 
 type (
@@ -339,7 +339,7 @@ func Run(t *testing.T, testDataFS embed.FS, ctx context.Context, config wazero.R
 	}
 
 	// If the go:embed path resolution was wrong, this fails.
-	// https://github.com/tetratelabs/wazero/issues/247
+	// https://github.com/youshandefeiyang/wazero/issues/247
 	require.True(t, len(caseNames) > 0, "len(caseNames)=%d (not greater than zero)", len(caseNames))
 
 	for _, f := range caseNames {

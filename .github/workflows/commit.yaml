@@ -139,7 +139,7 @@ jobs:
         if: ${{ matrix.arch != 'amd64' }}
         uses: docker/setup-qemu-action@v3
         with:  # Avoid docker.io rate-limits; built with internal-images.yml
-          image: ghcr.io/tetratelabs/wazero/internal-binfmt
+          image: ghcr.io/youshandefeiyang/wazero/internal-binfmt
           platforms: ${{ matrix.arch }}
 
       - name: Build scratch container

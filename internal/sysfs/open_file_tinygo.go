@@ -6,7 +6,7 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/tetratelabs/wazero/experimental/sys"
+	"github.com/youshandefeiyang/wazero/experimental/sys"
 )
 
 const supportedSyscallOflag = sys.Oflag(0)

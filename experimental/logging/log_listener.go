@@ -5,12 +5,12 @@ import (
 	"context"
 	"io"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/experimental"
-	aslogging "github.com/tetratelabs/wazero/internal/assemblyscript/logging"
-	"github.com/tetratelabs/wazero/internal/logging"
-	"github.com/tetratelabs/wazero/internal/wasip1"
-	wasilogging "github.com/tetratelabs/wazero/internal/wasip1/logging"
+	"github.com/youshandefeiyang/wazero/api"
+	"github.com/youshandefeiyang/wazero/experimental"
+	aslogging "github.com/youshandefeiyang/wazero/internal/assemblyscript/logging"
+	"github.com/youshandefeiyang/wazero/internal/logging"
+	"github.com/youshandefeiyang/wazero/internal/wasip1"
+	wasilogging "github.com/youshandefeiyang/wazero/internal/wasip1/logging"
 )
 
 type Writer interface {

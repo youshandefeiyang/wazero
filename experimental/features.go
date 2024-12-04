@@ -1,6 +1,6 @@
 package experimental
 
-import "github.com/tetratelabs/wazero/api"
+import "github.com/youshandefeiyang/wazero/api"
 
 // CoreFeaturesThreads enables threads instructions ("threads").
 //

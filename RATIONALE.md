@@ -1531,7 +1531,7 @@ that trampoline function. Therefore, runtime-generated machine code is also corr
 
 ## Why context cancellation is handled in Go code rather than native code
 
-Since [wazero v1.0.0-pre.9](https://github.com/tetratelabs/wazero/releases/tag/v1.0.0-pre.9), the runtime
+Since [wazero v1.0.0-pre.9](https://github.com/youshandefeiyang/wazero/releases/tag/v1.0.0-pre.9), the runtime
 supports integration with Go contexts to interrupt execution after a timeout, or in response to explicit cancellation.
 This support is internally implemented as a special opcode `builtinFunctionCheckExitCode` that triggers the execution of
 a Go function (`ModuleInstance.FailIfClosed`) that atomically checks a sentinel value at strategic points in the code.
@@ -1541,7 +1541,7 @@ however, because native code never preempts (see section above), this may lead t
 never get the chance to run, and thus never get the chance to set the sentinel value; effectively preventing
 cancellation from taking place.
 
-[native_check]: https://github.com/tetratelabs/wazero/issues/1409
+[native_check]: https://github.com/youshandefeiyang/wazero/issues/1409
 
 ## Golang patterns
 

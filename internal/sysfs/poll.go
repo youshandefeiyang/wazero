@@ -3,8 +3,8 @@
 package sysfs
 
 import (
-	"github.com/tetratelabs/wazero/experimental/sys"
-	"github.com/tetratelabs/wazero/internal/fsapi"
+	"github.com/youshandefeiyang/wazero/experimental/sys"
+	"github.com/youshandefeiyang/wazero/internal/fsapi"
 )
 
 // poll implements `Poll` as documented on sys.File via a file descriptor.
